@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>بيانات الكابينة - 12-1-03-01</title>
+
+    <style>
+
+        :root {
+
+            --primary-color: #5c2483;
+
+            --secondary-color: #28a745;
+
+            --bg-color: #f4f6f9;
+
+            --card-bg: #ffffff;
+
+            --text-dark: #212529;
+
+            --text-muted: #6c757d;
+
+        }
+
+        * {
+
+            box-sizing: border-box;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        body {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            background-color: var(--bg-color);
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            min-height: 100vh;
+
+            padding: 15px;
+
+        }
+
+        .card {
+
+            background: var(--card-bg);
+
+            border-radius: 16px;
+
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+
+            width: 100%;
+
+            max-width: 400px;
+
+            overflow: hidden;
+
+            border-top: 6px solid var(--primary-color);
+
+        }
+
+        .header {
+
+            text-align: center;
+
+            padding: 20px 20px 10px 20px;
+
+            border-bottom: 1px solid #eee;
+
+        }
+
+        .logo {
+
+            max-width: 140px;
+
+            max-height: 60px;
+
+            object-fit: contain;
+
+            margin-bottom: 8px;
+
+        }
+
+        .badge {
+
+            background-color: #f0e6f7;
+
+            color: var(--primary-color);
+
+            padding: 4px 12px;
+
+            border-radius: 20px;
+
+            font-size: 12px;
+
+            font-weight: bold;
+
+            display: inline-block;
+
+        }
+
+        .content {
+
+            padding: 20px;
+
+        }
+
+        .cabinet-title {
+
+            font-size: 22px;
+
+            color: var(--text-dark);
+
+            margin-bottom: 18px;
+
+            text-align: center;
+
+            font-weight: bold;
+
+        }
+
+        .info-grid {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 10px;
+
+            margin-bottom: 15px;
+
+        }
+
+        .info-box {
+
+            background: #f8f9fa;
+
+            padding: 10px 12px;
+
+            border-radius: 8px;
+
+            border-right: 3px solid var(--primary-color);
+
+        }
+
+        .info-box.full-width {
+
+            grid-column: span 2;
+
+        }
+
+        .label {
+
+            font-size: 11px;
+
+            color: var(--text-muted);
+
+            margin-bottom: 3px;
+
+        }
+
+        .value {
+
+            font-size: 14px;
+
+            color: var(--text-dark);
+
+            font-weight: 600;
+
+        }
+
+        .map-btn {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            width: 100%;
+
+            background-color: var(--secondary-color);
+
+            color: white;
+
+            text-align: center;
+
+            padding: 14px 0;
+
+            border-radius: 10px;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+            font-size: 16px;
+
+            margin-top: 15px;
+
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+
+        }
+
+        .footer-note {
+
+            text-align: center;
+
+            font-size: 11px;
+
+            color: var(--text-muted);
+
+            margin-top: 15px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="header">
+
+        <img src="https://via.placeholder.com/150x50?text=COMPANY+LOGO" alt="الشركة المصرية للإتصالات" class="logo">
+
+        <br>
+
+        <span class="badge">إدارة تشغيل وصيانة أجهزة الإتاحة الأقصر</span>
+
+    </div>
+
+    <div class="content">
+
+        <div class="cabinet-title">MSAN CODE: 12-1-03-01</div>
+
+        <div class="info-grid">
+
+            <div class="info-box">
+
+                <div class="label">الشركة المصنعة</div>
+
+                <div class="value">Huawei</div>
+
+            </div>
+
+            <div class="info-box">
+
+                <div class="label">السنترال التابع</div>
+
+                <div class="value">ارمنت غرب الرئيسى</div>
+
+            </div>
+
+            <div class="info-box full-width">
+
+                <div class="label">العنوان والموقع التفصيلي</div>
+
+                <div class="value">أرمنت غرب  كوبرى الرياينة _ بجوار مسجد السكة الحديد</div>
+
+            </div>
+
+            <div class="info-box">
+
+                <div class="label">MODEL</div>
+
+                <div class="value">MA5600T</div>
+
+            </div>
+
+            <div class="info-box">
+
+                <div class="label">CONTROL CARD</div>
+
+                <div class="value">H802SCUN</div>
+
+            </div>
+
+            <div class="info-box full-width">
+
+                <div class="label">الإحداثيات الجغرافية</div>
+
+                <div class="value">25.602862,32.4763742</div>
+
+            </div>
+
+        </div>
+
+        <a href="https://maps.google.com/?q=25.602862,32.4763742(12-1-03-01)" class="map-btn" target="_blank">
+
+             فتح الموقع في Google Maps
+
+        </a>
+
+        <div class="footer-note">
+
+            نظام إدارة وتتبع الكبائن الذكي
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
